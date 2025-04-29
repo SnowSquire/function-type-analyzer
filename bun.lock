@@ -3,9 +3,11 @@
   "workspaces": {
     "": {
       "name": "acorntest",
+      "dependencies": {
+        "ts-morph": "^25.0.1",
+      },
       "devDependencies": {
         "@types/node": "^22.15.3",
-        "ts-morph": "^25.0.1",
       },
       "peerDependencies": {
         "typescript": "^5.8.3",
