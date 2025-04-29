@@ -1,5 +1,6 @@
 {
 	"name": "function-type-analyzer",
+	"version": "0.0.1",
 	"module": "./dist/index.js",
 	"bin": {
 		"function-type-analyzer": "./dist/index.js"
