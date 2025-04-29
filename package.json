@@ -5,6 +5,7 @@
 		"function-type-analyzer": "./dist/index.js"
 	},
 	"devDependencies": {
+		"@types/node": "^22.15.3",
 		"ts-morph": "^25.0.1"
 	},
 	"peerDependencies": {
