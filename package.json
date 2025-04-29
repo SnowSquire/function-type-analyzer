@@ -1,12 +1,19 @@
 {
 	"name": "function-type-analyzer",
-	"module": "index.ts",
+	"module": "./dist/index.js",
+	"bin": {
+		"function-type-analyzer": "./dist/index.js"
+	},
 	"devDependencies": {
 		"ts-morph": "^25.0.1"
 	},
 	"peerDependencies": {
 		"typescript": "^5.8.3"
 	},
+	"scripts": {
+		"build": "tsc"
+	},
+	"files": ["dist"],
 	"private": false,
 	"type": "module"
 }
